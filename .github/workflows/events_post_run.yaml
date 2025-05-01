@@ -13,6 +13,15 @@ jobs:
       BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
       CHAT_ID: ${{ secrets.CHAT_ID }}
       token: ${{ secrets.TOKEN }}
+      EVENT_FB_ACCESS: ${{ secrets.EVENT_FB_ACCESS }}
+      EVENT_LOSANGELES_FB_ID: ${{ secrets.EVENT_LOSANGELES_FB_ID }}
+      EVENT_LOSANGELES_FB_TOKEN: ${{ secrets.EVENT_LOSANGELES_FB_TOKEN }}
+      EVENT_LOSANGELES_INSTA_ID: ${{ secrets.EVENT_LOSANGELES_INSTA_ID }}
+      EVENT_MUMBAI_FB_ID: ${{ secrets.EVENT_MUMBAI_FB_ID }}
+      EVENT_MUMBAI_FB_TOKEN: ${{ secrets.EVENT_MUMBAI_FB_TOKEN }}
+      EVENT_MUMBAI_INSTA_ID: ${{ secrets.EVENT_MUMBAI_INSTA_ID }}
+      FEST_IMGUR_CLIENT_ID: ${{ secrets.FEST_IMGUR_CLIENT_ID }}
+      USERNAME: ${{ secrets.USERNAME }}
       GH_PERSONAL_TOKEN: ${{ secrets.TOKEN }}
 
     steps:
